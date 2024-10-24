@@ -1,0 +1,188 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "layout": {
+      "contentSize": "calc(min(100% - 160px, 1920px))",
+      "wideSize": "1920px",
+      "allowCustomContentAndWideSize": false
+    },
+    "blocks": {
+      "core/column": {
+        "shadow": {
+          "defaultPresets": false,
+          "presets": []
+        }
+      },
+      "core/button": {
+        "border": {
+          "radius": false,
+          "style": false,
+          "color": false,
+          "width": false
+        },
+        "shadow": {
+          "defaultPresets": false,
+          "presets": []
+        }
+      },
+      "core/group": {
+        "layout": {
+          "contentSize": "var(--wp--style--global--content-size)",
+          "wideSize": "var(--wp--style--global--wide-size)",
+          "allowCustomContentAndWideSize": false
+        }
+      },
+      "core/row": {
+        "layout": {
+          "contentSize": "var(--wp--style--global--content-size)",
+          "wideSize": "var(--wp--style--global--wide-size)"
+        }
+      },
+      "core/pullquote": {
+        "border": {
+          "radius": false,
+          "style": false,
+          "color": true,
+          "width": false
+        }
+      },
+      "core/image": {
+        "layout": {
+          "contentSize": "var(--wp--style--global--content-size)",
+          "wideSize": "var(--wp--style--global--wide-size)",
+          "allowCustomContentAndWideSize": false
+        },
+        "shadow": {
+          "defaultPresets": false,
+          "presets": []
+        }
+      },
+      "core/gallery": {
+        "layout": {
+          "contentSize": "var(--wp--style--global--content-size)",
+          "wideSize": "var(--wp--style--global--wide-size)"
+        }
+      }
+    },
+    "typography": {
+      "fontWeight": false,
+      "fontStyle": false,
+      "dropCap": false,
+      "customFontSize": false,
+      "letterSpacing": false,
+      "fontFamilies": [
+        {
+          "fontFamily": "joly-display, sans-serif",
+          "slug": "joly-display"
+        },
+        {
+          "fontFamily": "sofia-pro, sans-serif",
+          "slug": "sofia-pro"
+        },
+        {
+          "fontFamily": "Homemade Apple, cursive",
+          "slug": "homemade-apple"
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Heading 1",
+          "slug": "head-1",
+          "size": "42px"
+        },
+        {
+          "name": "Heading 2",
+          "slug": "head-2",
+          "size": "35px"
+        },
+        {
+          "name": "Heading 3",
+          "slug": "head-3",
+          "size": "20px"
+        },
+        {
+          "name": "Heading 4",
+          "slug": "head-4",
+          "size": "18px"
+        },
+        {
+          "name": "Paragraph",
+          "slug": "paragraph",
+          "size": "16px"
+        },
+        {
+          "name": "Handwriting Title Large",
+          "slug": "handwriting-title-large",
+          "size": "38px"
+        },
+        {
+          "name": "Handwriting Title Small",
+          "slug": "handwriting-title-small",
+          "size": "24px"
+        },
+        {
+          "name": "Small",
+          "slug": "small",
+          "size": "12px"
+        }
+      ]
+    },
+    "color": {
+      "link": true,
+      "palette": [
+        {
+          "name": "Dark Green",
+          "slug": "primary",
+          "color": "#334525"
+        },
+        {
+          "name": "Gold",
+          "slug": "secondary",
+          "color": "#BB9D64"
+        },
+        {
+          "name": "Charcoal",
+          "slug": "tertiary",
+          "color": "#262626"
+        },
+        {
+          "name": "Smooth Grey",
+          "slug": "smooth-grey",
+          "color": "#646464"
+        },
+        {
+          "name": "Mid Grey",
+          "slug": "mid-grey",
+          "color": "#C9C8C8"
+        },
+        {
+          "name": "Light Grey",
+          "slug": "light-grey",
+          "color": "#EEEEEE"
+        },
+        {
+          "name": "Lighter Grey",
+          "slug": "lighter-grey",
+          "color": "#F2F2F2"
+        },
+        {
+          "name": "White",
+          "slug": "white",
+          "color": "#FFFFFF"
+        },
+        {
+          "name": "Transparent",
+          "slug": "transparent",
+          "color": "#00000000"
+        }
+      ],
+      "custom": false,
+      "customDuotone": false,
+      "customGradient": false,
+      "defaultDuotone": false,
+      "defaultGradients": false,
+      "defaultPalette": false 
+    }
+  }
+}

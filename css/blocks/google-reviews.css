@@ -1,0 +1,111 @@
+.google-reviews-container .wp-block-heading {
+    padding: 0px 0px 110px 0px;
+}
+
+.google-reviews-container .rplg-grid .rplg-grid-row {
+    gap: 72px;
+}
+
+.google-reviews-container .rplg-col {
+    padding: 10px;
+    border: 3px solid var(--wp--preset--color--light-grey) !important;
+    outline: 24px solid var(--wp--preset--color--white);
+    background: var(--wp--preset--color--white);
+    width: calc(33.3333333333% - 48px)!important;
+    margin: 0px !important;
+    position: relative !important;
+}
+
+.google-reviews-container .rplg-col:before {
+    content: "";
+    background-image: url(../../assets/icons/quote-ic.svg);
+    height: 20px;
+    width: 27px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 36px;
+    left: 36px;
+    z-index: 10;
+}
+
+.google-reviews-container .rplg .rplg-box {
+    background-color: var(--wp--preset--color--white) !important;
+    border: 0px !important;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    padding: 60px 24px 100px 24px !important;
+}
+
+/* Should be the same width as contentSize in the theme.json */
+.google-reviews-container .rplg {
+    max-width: calc(min(100% - 160px, 1920px));
+    margin: auto;
+}
+
+.google-reviews-container .rplg .rplg-row {
+    flex: 1;
+    margin-top: 40px;
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    width: calc(100% - 48px);
+}
+
+.google-reviews-container .rplg .rplg-box-content {
+    flex: 1;
+}
+
+.google-reviews-container .rplg .rplg-review-name {
+    color: var(--wp--preset--color--smooth-grey) !important;
+    font-family: var(--wp--preset--font-family--sofia-pro) !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+    line-height: 27px !important;
+}
+
+.google-reviews-container .rplg .rplg-review-time {
+    color: var(--wp--preset--color--smooth-grey) !important;
+    font-family: var(--wp--preset--font-family--sofia-pro) !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+}
+
+.google-reviews-container .rplg .rplg-stars {
+    position: absolute;
+    bottom: 1px;
+    right: -4px;
+}
+
+.google-reviews-container .rplg .rplg-review-text {
+    color: var(--wp--preset--color--smooth-grey) !important;
+    font-family: var(--wp--preset--font-family--joly-display) !important;
+    font-size: 22px !important;
+    font-style: italic !important;
+    font-weight: 400 !important;
+    line-height: 32px !important;
+}
+
+.google-reviews-container .rplg .rplg-review-badge {
+    top: 24px !important;
+    right: 24px !important;
+}
+
+.google-reviews-container .rplg .rplg-stars svg use {
+    fill: var(--wp--preset--color--secondary);
+}
+
+@media (max-width: 1400px) {
+    .google-reviews-container .rplg-col {
+        width: calc(50% - 36px) !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .google-reviews-container .rplg-col {
+        width: 100% !important;
+    }
+}

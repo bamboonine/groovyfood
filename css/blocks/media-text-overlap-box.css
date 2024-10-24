@@ -1,0 +1,62 @@
+/* Uses JS to set height of image, check js/scripts.js */
+
+.media-text-overlap-box .wp-block-media-text__media {
+    width: 100%;
+}
+
+.media-text-overlap-box .wp-block-media-text__media img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.media-text-overlap-box .wp-block-media-text__content {
+    margin-left: -64px;
+    margin-bottom: -220px;
+    padding: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.media-text-overlap-box .wp-block-media-text.has-media-on-the-right .wp-block-media-text__content {
+    margin-left: 0px;
+    margin-right: -64px;
+}
+
+.media-box {
+    padding: 24px;
+}
+
+.media-box .wp-block-group {
+    padding: 40px;
+    border: 3px solid var(--wp--preset--color--light-grey);
+}
+.media-icon-box p {
+    padding: 0px 20px;
+}
+
+@media (max-width: 1024px) {
+    .media-text-overlap-box .wp-block-media-text {
+        direction: rtl;
+    }
+    .media-text-overlap-box .wp-block-media-text {
+        grid-template-columns: 1fr !important;
+    }
+    .media-text-overlap-box .wp-block-media-text .wp-block-media-text__content {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .media-text-overlap-box .wp-block-media-text .wp-block-media-text__media {
+        grid-column: 1;
+        grid-row: 1;
+        height: auto !important;
+    }
+    .media-text-overlap-box .wp-block-media-text .wp-block-media-text__content {
+        margin-bottom: 0px !important;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+    .media-text-overlap-box .media-box .wp-block-group {
+        padding: 20px;
+    }
+}

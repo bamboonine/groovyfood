@@ -1,0 +1,17 @@
+.content-with-icons .small-intro-text {
+    margin-bottom: 110px;
+}
+
+.content-with-icons .wp-block-column .wp-block-image img {
+    height: 120px;
+    width: auto;
+    margin-bottom: 40px;
+}
+
+.content-with-icons .wp-block-heading {
+    margin-bottom: 24px;
+}
+
+.content-with-icons .icon-container {
+    margin-bottom: 110px;
+}

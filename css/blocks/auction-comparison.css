@@ -1,0 +1,133 @@
+.auction-box {
+    border: 2px solid var(--wp--preset--color--primary);
+    margin: 64px 0px;
+    position: relative;
+    padding: 48px;
+}
+
+.auction-container {
+    margin-top: 110px;
+}
+
+.auction-box.top-auction-box:before {
+    height: 64px;
+    top: -66px;
+}
+
+.auction-box.bottom-auction-box:after {
+    height: 64px;
+    bottom: -66px;
+}
+
+.auction-box:before {
+    content: "";
+    position: absolute;
+    top: -34px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 2px;
+    height: 32px;
+    background-color: var(--wp--preset--color--primary);
+}
+
+.auction-box:after {
+    content: "";
+    position: absolute;
+    bottom: -34px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 2px;
+    height: 32px;
+    background-color: var(--wp--preset--color--primary);
+}
+
+.auction-box-button {
+    position: relative;
+}
+
+.auction-box-button .wp-block-button {
+    margin-top: 62px;
+}
+
+.auction-box-button:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 211px;
+    width: 618px;
+    height: 2px;
+    background-color: var(--wp--preset--color--primary);
+}
+
+.auction-box-button:after {
+    content: "";
+    position: absolute;
+    bottom: 44px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 2px;
+    height: 62px;
+    background-color: var(--wp--preset--color--primary);
+}
+
+.auction-box table td {
+    border: 0;
+    padding: 0px 0px 10px 0px;
+}
+
+.auction-box table td strong {
+    padding: 12px 0px 24px 0px;
+    display: block;
+}
+
+.auction-box strong {
+    font-size: 18px;
+}
+
+.top-auction-box p {
+    padding-top: 12px;
+}
+
+.bottom-auction-box p:first-child {
+    padding-bottom: 12px;
+}
+
+.full-auction-container .wp-block-button.is-style-fill a {
+    color: var(--wp--preset--color--white) !important;
+    letter-spacing: 4px;
+}
+
+@media (max-width: 1400px) {
+    .full-auction-container .small-container {
+        max-width: calc(min(100% - 160px, 800px));
+    }
+    .auction-box-button:before {
+        left: 111px;
+        width: 418px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .auction-box-button:before {
+        left: 151px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .full-auction-container .small-container {
+        max-width: calc(min(100% - 80px, 800px));
+    }
+    .full-auction-container .auction-container {
+        flex-direction: column;
+    }
+    .auction-box-button:before {
+        display: none;
+    }
+    .auction-container {
+        margin-top: 32px;
+    }
+    .auction-box {
+        margin: 64px 0px 32px 0px;
+        padding: 24px;
+    }
+}

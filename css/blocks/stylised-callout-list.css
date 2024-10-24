@@ -1,0 +1,39 @@
+.cross-list li::before {
+    content: "";
+    background-image: url('../../assets/icons/cross.png');
+    height: 25px;
+    width: 24px;
+    position: absolute;
+    left: 0px;
+    background-size: cover;
+    top: 1px;
+}
+
+.cross-list li {
+    margin-bottom: 24px;
+    position: relative;
+    font-family: var(--wp--preset--font-family--sofia-pro);
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 38px;
+}
+
+.tick-list li:before {
+    content: "";
+    background-image: url('../../assets/icons/tick.png');
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left: 0px;
+    background-size: cover;
+    top: 2px;
+}
+
+.tick-list li {
+    margin-bottom: 24px;
+    position: relative;
+    font-family: var(--wp--preset--font-family--sofia-pro);
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 40px;
+}

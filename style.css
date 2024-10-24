@@ -1,0 +1,43 @@
+/*
+Theme Name: Burlingtons by Bamboo Nine
+Theme URI: https://www.bamboonine.co.uk/
+Author: Philippe Bailey
+Author URI: https://www.bamboonine.co.uk/
+Description: A clean Gutenberg Block theme for Bamboo Nine for WordPress 6.2+.
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bambooninestarter
+Tags: one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-background, custom-colors, custom-header, custom-logo, full-site-editing, full-width-template, 
+*/
+
+/* Browser Reset */
+@import "css/defaults/browserReset.css";
+
+/* Styleguide Styling (Frontend and Backend) */
+@import "css/defaults/styleGuide.css";
+
+/* Components */
+@import "css/components/header.css";
+@import "css/components/footer.css";
+
+/* Blocks */
+@import "css/blocks/header-block-media-text.css";
+@import "css/blocks/header-block-video-text.css";
+@import "css/blocks/category-cards.css";
+@import "css/blocks/post-cards.css";
+@import "css/blocks/full-page-title.css";
+@import "css/blocks/product-cards.css";
+@import "css/blocks/product-cards-simple.css";
+@import "css/blocks/media-text-centered-box.css";
+@import "css/blocks/media-text-overlap-box.css";
+@import "css/blocks/callout-cards.css";
+@import "css/blocks/two-column-content-with-title-small.css";
+@import "css/blocks/one-column-content-with-title-tiny.css";
+@import "css/blocks/stylised-callout.css";
+@import "css/blocks/contact-form.css";
+@import "css/blocks/auction-comparison.css";
+@import "css/blocks/google-reviews.css";
+@import "css/blocks/content-with-icons.css";
+@import "css/blocks/stylised-callout-icons.css";
+@import "css/blocks/stylised-callout-list.css";

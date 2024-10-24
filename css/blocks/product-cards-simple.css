@@ -1,0 +1,16 @@
+.product-cards-simple .wp-block-column .wp-block-group {
+    padding: 20px;
+}
+
+.product-cards-simple .wp-block-column .wp-block-group img {
+    margin: 24px 0px;
+}
+
+.product-cards-simple .wp-block-heading:before {
+    content: "";
+    border-top: 2px solid var(--wp--preset--color--primary);
+    width: 16px;
+    display: block;
+    margin: auto;
+    padding-bottom: 4px;
+}

@@ -1,0 +1,277 @@
+header {
+    background-color: var(--wp--preset--color--light-grey);
+    height: 150px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+}
+
+header .large-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+main {
+    margin-top: 150px;
+}
+
+#search-form-container {
+    position: fixed;
+    background-color: rgba(0,0,0,0.25);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    z-index: 99999;
+    overflow: hidden;
+}
+
+#search-form-container form {
+    position: absolute;
+    top: calc(50% - 50px);
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    max-width: 750px;
+    padding: 0px 25px !important;
+}
+
+#search-form-container form label {
+    width: calc(100% - 50px) !important;
+}
+
+#search-form-container form input[type="search"] {
+    height: 50px;
+    border: 2px solid var(--wp--preset--color--secondary) !important;
+}
+
+#search-form-container form button {
+    height: 50px;
+    width: 50px;
+}
+
+#search-form-container form button .is-search-icon {
+    height: 50px;
+    width: 50px;
+    padding-top: 12px !important;
+    cursor: pointer;
+    background-color: var(--wp--preset--color--secondary);
+    border: 0px !important;
+}
+
+#search-form-container form button .is-search-icon svg {
+    fill: var(--wp--preset--color--primary);
+    width: 28px;
+}
+
+header .left-header-container {
+    display: flex;
+    align-items: center;
+}
+
+header .right-header-container {
+    display: flex;
+    align-items: center;
+}
+  
+.right-header-container .menu-container {
+    margin-right: 20px;
+}
+
+.right-header-container .primary-menu {
+    display: flex;
+    list-style: none;
+}
+
+.right-header-container .primary-menu li a {
+    color: var(--wp--preset--color--smooth-grey);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.right-header-container .additional-items-container {
+    display: flex;
+    align-items: center;
+}
+
+.right-header-container .additional-items-container > div {
+    margin-left: 15px;
+}
+
+.primary-menu li {
+    position: relative;
+}
+
+.primary-menu .sub-menu {
+    display: none;
+    z-index: 9999;
+    background: var(--wp--preset--color--light-grey);
+    background: linear-gradient(180deg, rgba(238,238,238,1) 0%, rgba(238,238,238,1) 50%, rgba(238,238,238,0.8) 90%, rgba(238,238,238,0) 100%);
+    top: 95px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.primary-menu > li:hover > .sub-menu {
+    display: flex;
+    padding: 40px 10vw 5% 10vw;
+}
+
+.primary-menu .sub-menu .sub-menu {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0px;
+    width: 200px;
+    height: auto;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.primary-menu .sub-menu li:hover > .sub-menu {
+    display: block;
+}
+
+.primary-menu .sub-menu li {
+    flex: 1;
+}
+
+.primary-menu .sub-menu li a {
+    display: block;
+    padding: 0px 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.primary-menu .sub-menu .sub-menu li a {
+    font-weight: normal;
+}
+
+.primary-menu > li {
+    margin-right: 20px;
+}
+
+.primary-menu > li > a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333; 
+}
+
+.burger-container {
+    display: none;
+}
+
+@media (max-width: 1400px) {
+    .primary-menu > li:hover > .sub-menu {
+        padding: 40px 40px 5% 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    header {
+        height: 100px;
+    }
+    main {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .search-container {
+        display: none;
+    }
+    .burger-container {
+        display: block;
+    }
+    .right-header-container .menu-container {
+        position: absolute;
+        left: 0px;
+        top: 100px;
+        width: 100%;
+        height: calc(100vh - 100px);
+        margin: 0px;
+        background-color: var(--wp--preset--color--light-grey);
+    }
+    .right-header-container .menu-primary-nav-container {
+        height: 100%;
+        margin-top: 50px;
+    }
+    #search-form-container {
+        display: block !important; /* Remove me once styled correctly */
+        background: none;
+        position: absolute;
+        top: 100px;
+        height: 50px;
+    }
+    #search-form-container form {
+        max-width: none;
+        padding: 0px 40px !important;
+        top: 0px;
+        position: relative;
+    }
+    .mobile-menu-primary-nav {
+        margin-top: 100px;
+    }
+    .mobile-menu-primary-nav li {
+        position: relative;
+        width: calc(100% - 80px);
+        margin: 0px 40px 5px 40px;
+    }
+    .mobile-menu-primary-nav li a {
+        color: var(--wp--preset--color--smooth-grey);
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 300;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+        position: relative;
+        padding: 10px 0px;
+        margin-bottom: 5px;
+    }
+    .mobile-menu-primary-nav li.menu-item-has-children .submenu-open {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background-image: url('../../assets/icons/menu-arrow-ic.svg');
+        height: 41px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-position: 20px 15px;
+        cursor: pointer;
+        z-index: 10;
+    }
+    .mobile-menu-primary-nav .sub-menu {
+        position: fixed;
+        top: 200px;
+        width: 100%;
+        height: calc(100vh - 200px);
+        display: block;
+        left: calc(100% + 90px);
+        transition: all 0.1s ease;
+        background-color: var(--wp--preset--color--light-grey);
+        z-index: 20;
+    }
+    .mobile-menu-primary-nav .sub-menu .sub-menu {
+        z-index: 30;
+    }
+    .mobile-menu-primary-nav .sub-menu .sub-menu .sub-menu {
+        z-index: 40;
+    }
+    .mobile-menu-primary-nav .sub-menu .sub-menu .sub-menu .sub-menu {
+        z-index: 50;
+    }
+}

@@ -1,0 +1,28 @@
+.product-cards .wp-block-column .wp-block-group {
+    padding: 20px;
+}
+
+.product-cards .wp-block-column .wp-block-group img {
+    margin: 24px 0px;
+}
+
+.product-cards .wp-block-column .wp-block-group .wp-block-button {
+    width: 100%;
+    display: block;
+}
+
+.product-cards .wp-block-column .wp-block-group .wp-block-button__link {
+    border: 1px solid var(--wp--preset--color--primary) !important;
+    border-radius: 50px;
+    padding: 12px 24px;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.product-cards .wp-block-column .wp-block-group .wp-block-button__link:hover {
+    background: var(--wp--preset--color--primary) !important;
+    color: var(--wp--preset--color--white) !important;
+}

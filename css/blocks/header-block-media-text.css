@@ -1,0 +1,17 @@
+.media-text-with-extra-text {
+    position: relative;
+}
+
+.media-text-with-extra-text .handwriting-text-large {
+    margin-top: -40px;
+    margin-left: -25px;
+    transform: rotate(-8deg);
+    text-align: left;
+}
+
+.media-text-with-extra-text .scroll-down {
+    position: absolute;
+    bottom: 150px;
+    right: 0px;
+    transform: rotate(90deg);
+}

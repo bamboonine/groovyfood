@@ -1,0 +1,30 @@
+.stylised-callout > .wp-block-group:first-child {
+    padding: 20px;
+}
+
+.stylised-callout .stylised-callout-content {
+    border: 3px solid var(--wp--preset--color--light-grey);
+    padding: 80px;
+}
+
+.stylised-callout .stylised-callout-content .wp-block-heading {
+    margin-bottom: 64px;
+}
+
+@media (max-width: 1200px) {
+    .stylised-callout .stylised-callout-content {
+        padding: 40px;
+    }
+    .stylised-callout .stylised-callout-content .wp-block-heading {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .stylised-callout .stylised-callout-content {
+        padding: 24px;
+    }
+    .stylised-callout .stylised-callout-content .wp-block-heading {
+        margin-bottom: 24px;
+    }
+}

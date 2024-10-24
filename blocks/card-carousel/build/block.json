@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/card-carousel",
+  "version": "0.1.0",
+  "title": "Card Carousel",
+  "category": "bamboo-nine",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "className": true,
+    "align": [
+      "full",
+      "wide"
+    ]
+  },
+  "attributes": {
+    "imageDetails": {
+      "type": "array",
+      "default": []
+    },
+    "blockTitle": {
+      "type": "string",
+      "default": "Card Carousel"
+    },
+    "ctaTitle": {
+      "type": "string",
+      "default": "CTA Title"
+    },
+    "furtherInfoLink": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "card-carousel",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

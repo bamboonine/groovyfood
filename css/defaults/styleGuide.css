@@ -1,0 +1,252 @@
+.large-container {
+  max-width: calc(min(100% - 160px, 1920px));
+  margin: auto;
+}
+
+.small-container {
+  max-width: calc(min(100% - 160px, 1200px));
+  margin: auto;
+}
+
+.tiny-container {
+  max-width: calc(min(100% - 160px, 600px));
+  margin: auto;
+}
+
+section {
+  padding: 110px 0px;
+}
+
+h1 {
+  color: var(--wp--preset--color--primary);
+  font-family: var(--wp--preset--font-family--joly-display);
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 58px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: var(--wp--preset--color--primary);
+  font-family: var(--wp--preset--font-family--joly-display);
+  font-size: 35px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 52px;
+}
+
+h3 {
+  color: var(--wp--preset--color--primary);
+  font-family: var(--wp--preset--font-family--sofia-pro);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+h4,
+h5,
+h6 {
+  color: var(--wp--preset--color--primary);
+  font-family: var(--wp--preset--font-family--sofia-pro);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 27px;
+}
+
+p, textarea, label, input, select, option, td {
+
+  color: var(--wp--preset--color--primary);
+  font-family: var(--wp--preset--font-family--sofia-pro);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.handwriting-text-large {
+  color: var(--wp--preset--color--secondary);
+  font-family: var(--wp--preset--font-family--homemade-apple);
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 67px;
+}
+
+.handwriting-text-small {
+  color: var(--wp--preset--color--secondary);
+  font-family: var(--wp--preset--font-family--homemade-apple);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+a {
+  color: var(--wp--preset--color--primary);
+  font-family: var(--wp--preset--font-family--sofia-pro);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+a:hover {
+  color: var(--wp--preset--color--secondary);
+}
+
+.wp-block-button a,
+.wp-block-button div {
+  font-family: var(--wp--preset--font-family--sofia-pro);
+  text-transform: uppercase;
+  line-height: 21px;
+  color: var(--wp--preset--color--smooth-grey) !important;
+  border: 0px !important;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wp-block-button.is-style-outline a,
+.wp-block-button.is-style-outline div {
+  font-family: var(--wp--preset--font-family--sofia-pro);
+  background: var(--wp--preset--color--transparent);
+  letter-spacing: 4px;
+  padding: 16px 0px;
+}
+
+.wp-block-button.is-style-fill a,
+.wp-block-button.is-style-fill div {
+  font-family: var(--wp--preset--font-family--sofia-pro);
+  padding: 12px 24px;
+  border-radius: 50px;
+  background-color: var(--wp--preset--color--primary);
+}
+
+.wp-block-buttons .wp-block-button.is-style-outline a::before,
+.wp-block-button.is-style-outline div::before {
+  content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjciIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxNjcgMTEiIGZpbGw9IiNDOUM4QzgiPgo8cGF0aCBkPSJNMTY3IDUuNUwxNTkuNTEzIDkuODMwMTNMMTU5LjUxMyAxLjE2OTg3TDE2NyA1LjVaIiBmaWxsPSIjQzlDOEM4Ii8+CjxyZWN0IHk9IjUiIHdpZHRoPSIxNTkuNzMyIiBoZWlnaHQ9IjEiIGZpbGw9IiNDOUM4QzgiLz4KPC9zdmc+");
+  margin-right: 16px;
+}
+
+.wp-block-buttons .wp-block-button.is-style-outline.shorter a::before,
+.wp-block-button.is-style-outline.shorter div::before {
+  content: url("../../assets/images/short-arrow.svg");
+}
+
+.alt-button a {
+  border-radius: 50px;
+  border: 1px solid var(--wp--preset--color--white) !important;
+  color: var(--wp--preset--color--white) !important;
+  letter-spacing: 4px;
+}
+
+.alt-button input[type="submit"] {
+  border-radius: 50px;
+  border: 1px solid var(--wp--preset--color--primary) !important;
+  color: var(--wp--preset--color--primary) !important;
+  letter-spacing: 4px;
+  font-family: var(--wp--preset--font-family--sofia-pro);
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="password"], textarea, select, option {
+  border: 0px solid transparent;
+  border-bottom-color: var(--wp--preset--color--mid-grey);
+  border-bottom-width: 1px;
+}
+
+textarea {
+  min-height: 100px;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100px;
+}
+
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="password"], select, option, textarea {
+  background-color: transparent;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+::placeholder {
+  color: var(--wp--preset--color--mid-grey);
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: var(--wp--preset--color--mid-grey);
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --wp--style--global--content-size: calc(min(100% - 80px, 1920px));
+  }
+  .large-container {
+    max-width: calc(100% - 80px);
+  }
+  .small-container {
+    max-width: calc(100% - 80px);
+  }
+  .tiny-container {
+    max-width: calc(min(100% - 80px, 600px));
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 43px;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 39px;
+  }
+  .handwriting-text-large {
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --wp--style--global--content-size: calc(min(100% - 48px, 1920px));
+  }
+  .large-container {
+    max-width: calc(100% - 48px);
+  }
+  .small-container {
+    max-width: calc(100% - 48px);
+  }
+  .tiny-container {
+    max-width: calc(min(100% - 48px, 600px));
+  }
+  h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .handwriting-text-large {
+    font-size: 18px;
+    line-height: 33px;
+  }
+  .media-text-with-extra-text .handwriting-text-large {
+    text-align: right !important;
+  }
+  .footer-contact-container .contact-container {
+    flex-direction: column;
+    gap: 0px !important;
+    align-items: center;
+  }
+}

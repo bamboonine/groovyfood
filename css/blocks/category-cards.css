@@ -1,0 +1,21 @@
+.category-cards .title {
+    margin-bottom: 110px;
+}
+
+.category-cards .wp-block-columns {
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.category-cards .wp-block-column img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border: 20px solid var(--wp--preset--color--white);
+}
+
+@media (max-width: 767px) {
+    .category-cards .wp-block-column img {
+        height: 280px;
+    }
+}

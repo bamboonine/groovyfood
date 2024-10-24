@@ -1,0 +1,201 @@
+footer {
+    background-color: var(--wp--preset--color--light-grey);
+    padding-top: 110px;
+}
+
+footer .large-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-logo-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.footer-logo-container a::before {
+    height: 2px;
+    background-color: var(--wp--preset--color--primary);
+    content: "";
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    top: 71px;
+}
+
+.footer-logo-container a img {
+    position: relative;
+    z-index: 10;
+}
+
+.footer-address-container {
+    margin: 40px 0px;
+}
+
+.footer-address-container p {
+    color: var(--wp--preset--color--tertiary);
+    text-align: center;
+    font-family: var(--wp--preset--font-family--joly-display);
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 52px;
+}
+
+.footer-contact-container {
+    margin: 0px 0px 40px 0px;
+}
+
+#by-appointment {
+    color: var(--wp--preset--color--smooth-grey);
+    text-align: center;
+    font-family: var(--wp--preset--font-family--sofia-pro);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.footer-contact-container .contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-contact-container .contact-container p {
+    font-family: var(--wp--preset--font-family--joly-display);
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 52px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.footer-contact-container .contact-container p a {
+    font-family: var(--wp--preset--font-family--joly-display);
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.footer-contact-container .contact-container p:first-child::before {
+    content: "T. ";
+    color: var(--wp--preset--color--smooth-grey);
+    position: absolute;
+    left: 0px;
+}
+
+.footer-contact-container .contact-container p:last-child::before {
+    content: "E. ";
+    color: var(--wp--preset--color--smooth-grey);
+    position: absolute;
+    left: 0px;
+}
+
+.footer-social-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 140px;
+}
+
+.footer-social-container a {
+    color: var(--wp--preset--color--smooth-grey);
+    font-family: var(--wp--preset--font-family--sofia-pro);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-menu-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-menu-container ul li a {
+    color: var(--wp--preset--color--smooth-grey);
+    font-family: var(--wp--preset--font-family--sofia-pro);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.copy-container {
+    display: flex;
+    justify-content: center;
+    margin: 64px;
+}
+
+.copy-container a {
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    footer {
+        padding-top: 64px;
+    }
+    section {
+        padding: 64px 0px;
+    }
+    .footer-address-container p {
+        line-height: 36px;
+    }
+    .footer-social-container {
+        margin-bottom: 64px;
+    }
+    .footer-logo-container {
+        width: calc(100% + 80px);
+    }
+}
+
+@media (max-width: 767px) {
+    footer {
+        padding-top: 40px;
+    }
+    section {
+        padding: 40px 0px;
+    }
+    .footer-logo-container {
+        width: calc(100% + 48px);
+    }
+    .footer-address-container p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    #by-appointment {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .footer-contact-container .contact-container {
+        flex-wrap: wrap;
+    }
+    .footer-contact-container .contact-container p {
+        padding-left: 25px;
+    }
+    .footer-contact-container .contact-container p, .footer-contact-container .contact-container p a {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .footer-logo-container a img {
+        width: 80px;
+        margin-top: 32px;
+    }
+    .footer-menu-container ul {
+        gap: 16px;
+    }
+}
