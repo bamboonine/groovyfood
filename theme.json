@@ -3,7 +3,7 @@
   "version": 3,
   "settings": {
     "layout": {
-      "contentSize": "calc(min(100% - 160px, 1920px))",
+      "contentSize": "calc(min(100% - 192px, 1920px))",
       "wideSize": "1920px",
       "allowCustomContentAndWideSize": false
     },
@@ -73,53 +73,48 @@
       "letterSpacing": false,
       "fontFamilies": [
         {
-          "fontFamily": "joly-display, sans-serif",
-          "slug": "joly-display"
+          "fontFamily": "Synthese, sans-serif",
+          "slug": "Synthese"
         },
         {
-          "fontFamily": "sofia-pro, sans-serif",
-          "slug": "sofia-pro"
+          "fontFamily": "CabinetGrotesk-Black, sans-serif",
+          "slug": "CabinetGrotesk Black"
         },
         {
-          "fontFamily": "Homemade Apple, cursive",
-          "slug": "homemade-apple"
+          "fontFamily": "CabinetGrotesk-Bold, sans-serif",
+          "slug": "CabinetGrotesk Bold"
         }
       ],
       "fontSizes": [
         {
           "name": "Heading 1",
           "slug": "head-1",
-          "size": "42px"
+          "size": "90px"
         },
         {
           "name": "Heading 2",
           "slug": "head-2",
-          "size": "35px"
+          "size": "56px"
         },
         {
           "name": "Heading 3",
           "slug": "head-3",
-          "size": "20px"
+          "size": "40px"
         },
         {
           "name": "Heading 4",
           "slug": "head-4",
-          "size": "18px"
+          "size": "24px"
         },
         {
           "name": "Paragraph",
           "slug": "paragraph",
-          "size": "16px"
+          "size": "18px"
         },
         {
-          "name": "Handwriting Title Large",
-          "slug": "handwriting-title-large",
+          "name": "Subtitle",
+          "slug": "subtitle",
           "size": "38px"
-        },
-        {
-          "name": "Handwriting Title Small",
-          "slug": "handwriting-title-small",
-          "size": "24px"
         },
         {
           "name": "Small",
@@ -132,39 +127,34 @@
       "link": true,
       "palette": [
         {
-          "name": "Dark Green",
+          "name": "Groovy Black",
+          "slug": "text",
+          "color": "#1A1616"
+        },
+        {
+          "name": "Groovy Blue",
           "slug": "primary",
-          "color": "#334525"
+          "color": "#D7F4FF"
         },
         {
-          "name": "Gold",
+          "name": "Groovy Green",
           "slug": "secondary",
-          "color": "#BB9D64"
+          "color": "#D3FFAC"
         },
         {
-          "name": "Charcoal",
+          "name": "Groovy Orange",
           "slug": "tertiary",
-          "color": "#262626"
+          "color": "#FFE5CE"
         },
         {
-          "name": "Smooth Grey",
+          "name": "Groovy Yellow",
           "slug": "smooth-grey",
-          "color": "#646464"
+          "color": "#F2FFA3"
         },
         {
-          "name": "Mid Grey",
+          "name": "Groovy Pink",
           "slug": "mid-grey",
-          "color": "#C9C8C8"
-        },
-        {
-          "name": "Light Grey",
-          "slug": "light-grey",
-          "color": "#EEEEEE"
-        },
-        {
-          "name": "Lighter Grey",
-          "slug": "lighter-grey",
-          "color": "#F2F2F2"
+          "color": "#F8D7FE"
         },
         {
           "name": "White",
